@@ -3,11 +3,12 @@ function hydroCalc() {
     let userExercise = document.getElementById('userExercise').value;
     let water1 = userWeight / 2;
     let water2 = 12 * (userExercise / 30);
+    let water3 = water1 + water2;
     if (userExercise == 0) {
-        document.getElementById("hydro").innerHTML = water1;
+        document.getElementById("hydro").innerHTML = `you should drink ${water1} ounces of water daily`;
     }
     else
-        document.getElementById("hydro").innerHTML = (water1 + water2);
+        document.getElementById("hydro").innerHTML = `you should drink ${water3} ounces of water daily`;
 
 };
 

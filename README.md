@@ -1,4 +1,7 @@
 # hydroCalc
+site is live here: 
+https://matt-macari.github.io/hydroCalc/
+
 
 the purpse of hyrdro calc is to take the users weight and amount of exercise they do and caluclate the amount of water they should drink to stay hydrated. 
 
