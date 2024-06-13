@@ -1,4 +1,15 @@
-h1 {
-    color: blue;
+:root {
+    --water-blue: #90e0ef;
+    --black: #000000;
+    --dark-blue: #03045e;
+    --light-blue: #caf0f8;
 }
 
+body {
+    background-color: var(--light-blue);
+    text-align: center;
+}
+
+h1 {
+    color: var(--dark-blue);
+}
